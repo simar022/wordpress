@@ -39,6 +39,7 @@
 			</div>
 			<!-- /wp:columns -->
 <p>Deployed via GitHub Actions - Live Update Success!</p>
+<p>Also used Docker containers and multi stage build.</p>
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top","justifyContent":"space-between"}} -->
 			<div class="wp-block-group">
 				<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
