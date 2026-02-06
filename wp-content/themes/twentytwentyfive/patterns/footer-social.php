@@ -37,6 +37,8 @@
 		);
 		?>
 		</p>
+
+	<p>New Container deployed on each push!</p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
