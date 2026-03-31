@@ -64,11 +64,11 @@ This repository contains a professional-grade, containerized WordPress setup aut
 
 Add the following secrets to your repository (Settings > Secrets and variables > Actions):
 
-    * VM_IPADDRESS: Public IP of your Azure VM.
+* **VM_IPADDRESS**: Public IP of your Azure VM.
 
-    * VM_USERNAME: The SSH username (e.g., azureuser).
+* **VM_USERNAME**: The SSH username (e.g., azureuser).
 
-    * SSH_PRIVATE_KEY: Your private SSH key for VM access.
+* **SSH_PRIVATE_KEY**: Your private SSH key for VM access.
 
 ---
 
@@ -88,9 +88,9 @@ This project uses Immutable Deployments:
    
 ## 🛡️ Security & Maintenance
 
-    * SSL: Handled via Certbot on the host or inside a proxy container.
+* **SSL**: Handled via Certbot on the host or inside a proxy container.
 
-    * Pruning: The deployment script automatically runs docker image prune to save disk space.
+* **Pruning**: The deployment script automatically runs docker image prune to save disk space.
 
-    * Database: Ensure DB_HOST in wp-config.php points to the Docker bridge IP (172.17.0.1)
+* **Database**: Ensure DB_HOST in wp-config.php points to the Docker bridge IP (172.17.0.1)
 
